@@ -1,0 +1,36 @@
+.skill {
+    display: block;
+    position: relative;
+    width: 100%;
+    background: #efefef;
+    height: 35px;
+    border-radius: 4px;
+}
+
+.skill .skillTitle {
+    position: absolute;
+    line-height: 35px;
+    min-width: 15%;
+    text-align: center;
+    color: #fff;
+    z-index: 10;
+    border-radius: 4px;
+}
+
+.skill .skillBar {
+    position: relative;
+    z-index: 0;
+    height: 35px;
+    width: 0;
+    border-radius: 4px;
+}
+
+.skill .skillPercent {
+    position: absolute;
+    top: 0;
+    right: 12px;
+    line-height: 35px;
+    z-index: 10;
+    color: rgb(141, 136, 136);
+    font-size: 12px;
+}
