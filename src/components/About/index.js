@@ -76,7 +76,7 @@ function About() {
                 </p>
             </div>
 
-            <div className="skills">
+            <div className={clsx(styles.skills)}>
             {
                 skills.map(function(skill, index) {
                     return (

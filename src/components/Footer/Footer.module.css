@@ -15,3 +15,10 @@
 .iconConnect:hover {
     color: #528291;
 }
+
+/* Responsive */
+@media (max-width: 739px) {
+    .lightTitle {
+        font-size: 32px;
+    }
+}

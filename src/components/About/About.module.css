@@ -45,3 +45,16 @@
     color: rgb(141, 136, 136);
     font-size: 12px;
 }
+
+/* Responsive */
+@media (max-width: 1023px) {
+    .skills {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .skill .skillTitle {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+} 
