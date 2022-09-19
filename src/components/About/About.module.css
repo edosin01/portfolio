@@ -23,6 +23,17 @@
     height: 35px;
     width: 0;
     border-radius: 4px;
+    transform-origin: left;
+}
+
+.skill .skillBar.animationBar {
+    animation: animationSkillBar 2s linear;
+}
+
+@keyframes animationSkillBar {
+    0%  { transform: scaleX(0); }
+    70% { transform: scaleX(0.8); }
+    100% { transform: scaleX(1); }
 }
 
 .skill .skillPercent {

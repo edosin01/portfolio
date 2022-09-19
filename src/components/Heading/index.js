@@ -6,11 +6,11 @@ import Navbar from '../Navbar';
 
 function Heading() {
     return (
-        <div>
+        <div className={clsx(styles.bannerContainer)}>
             <img className={clsx(styles.banner)} src={banner} alt="Banner"/>
             <Navbar />
             <div className={clsx(styles.info, "text-center")}>
-                <span className={styles.name}>VŨ ĐỨC THĂNG</span>
+                <h1 className={styles.name}>VŨ ĐỨC THĂNG</h1>
                 <p className={styles.job}>Front-end developer</p>
             </div>
         </div>

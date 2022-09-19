@@ -9,6 +9,7 @@
     font-size: 32px;
     color: #fff;
     margin: 0 14px;
+    transition: all 0.2s ease-in;
 }
 
 .iconConnect:hover {

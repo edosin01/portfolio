@@ -1,5 +1,6 @@
 import styles from './About.module.css';
 import clsx from 'clsx';
+import { useState, useEffect } from 'react';
 
 function About() {
     const skills = [
@@ -40,6 +41,20 @@ function About() {
             bgColorBar: 'rgb(33, 133, 89)'
         }
     ];
+
+    const [checkHeight, setCheckHeight] = useState(false);
+
+    useEffect(() => {
+        function handleScroll() {
+            setCheckHeight(window.scrollY >= window.innerHeight-20);
+        }
+    
+        window.addEventListener("scroll", handleScroll);
+    
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+      }, []);
     
     return (
         <div id="about" className="content">
@@ -76,7 +91,7 @@ function About() {
                                     width: skill.percent,
                                     backgroundColor: skill.bgColorBar
                                 }}
-                                className={clsx(styles.skillBar)}
+                                className={checkHeight ? clsx(styles.skillBar, styles.animationBar) : clsx(styles.skillBar)}
                             >
                             </div>
 
