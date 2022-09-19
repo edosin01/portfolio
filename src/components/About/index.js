@@ -13,8 +13,14 @@ function About() {
         {
             name: 'CSS3',
             percent: '70%',
-            bgColorTitle: 'rgb(5, 138, 173)',
-            bgColorBar: 'rgb(6, 162, 203)'
+            bgColorTitle: 'rgb(255, 184, 184)',
+            bgColorBar: 'rgb(255, 204, 204)'
+        },
+        {
+            name: 'Bootstrap 4',
+            percent: '65%',
+            bgColorTitle: 'rgb(89, 54, 180)',
+            bgColorBar: 'rgb(104, 64, 212)'
         },
         {
             name: 'JavaScript',
@@ -25,8 +31,8 @@ function About() {
         {
             name: 'ReactJS',
             percent: '50%',
-            bgColorTitle: 'rgb(89, 54, 180)',
-            bgColorBar: 'rgb(104, 64, 212)'
+            bgColorTitle: 'rgb(5, 138, 173)',
+            bgColorBar: 'rgb(6, 162, 203)'
         },
         {
             name: 'MySQL',
@@ -46,7 +52,7 @@ function About() {
 
     useEffect(() => {
         function handleScroll() {
-            setCheckHeight(window.scrollY >= window.innerHeight-20);
+            setCheckHeight(window.scrollY >= window.innerHeight / 5);
         }
     
         window.addEventListener("scroll", handleScroll);

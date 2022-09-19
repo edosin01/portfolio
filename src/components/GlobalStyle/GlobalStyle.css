@@ -25,6 +25,10 @@ html {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
+  font-family: '#9Slide03 Source Sans Pro Light', Arial, Helvetica, sans-serif;
+  font-size: 1.12rem;
+  font-weight: 600;
+  color: #555;
 }
 
 /*!
