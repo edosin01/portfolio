@@ -11,9 +11,7 @@ function Portfolio() {
 
             <div className={clsx("description", "mb-4")}>
                 <p className={clsx("text-center")}>
-                    Xin chào, tôi là Vũ Đức Thăng, là một người hòa đồng, vui tính. Tôi có niềm đam mê
-                    với nhiếp ảnh và ngôn ngữ. Tôi hiện tại đang là sinh viên năm 4 đại học Công nghiệp
-                    Hà Nội chuyên ngành Công nghệ thông tin.
+                    Xin chào, dưới đây là các dự án mà tôi đã hoàn thành.
                 </p>
             </div>
 

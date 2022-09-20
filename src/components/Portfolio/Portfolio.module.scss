@@ -1,3 +1,7 @@
 .carouselInner a {
-    display: none;
+    visibility: hidden;
+}
+
+.carouselInner .dark {
+    color: #000;
 }

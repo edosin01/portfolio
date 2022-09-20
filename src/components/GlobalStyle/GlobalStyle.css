@@ -3,6 +3,20 @@ html {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'myFont1';
+  src:
+    local('#9Slide03 NettoOTLight'), 
+    url('../../assets/fonts/Slide03NettoOTLight.ttf');
+}
+
+@font-face {
+  font-family: 'myFont2';
+  src:
+    local('#9Slide03 Source Sans Pro Light'), 
+    url('../../assets/fonts/Slide03SourceSansProLight.ttf');
+}
+
 .content {
   max-width: 1000px;
   margin-left: auto;
@@ -25,7 +39,7 @@ html {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  font-family: '#9Slide03 Source Sans Pro Light', Arial, Helvetica, sans-serif;
+  font-family: myFont2, Arial, Helvetica, sans-serif;
   font-size: 1.12rem;
   font-weight: 600;
   color: #555;
