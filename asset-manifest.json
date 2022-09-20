@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.657f1b3c.css",
-    "main.js": "/portfolio/static/js/main.5f02dc9a.js",
+    "main.css": "/portfolio/static/css/main.98835af2.css",
+    "main.js": "/portfolio/static/js/main.7f045a8e.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.7b86926aec396416f68e.png",
+    "static/media/the-band.png": "/portfolio/static/media/the-band.e892a19445de7170d409.png",
+    "static/media/Slide03SourceSansProLight.ttf": "/portfolio/static/media/Slide03SourceSansProLight.6b686e363af6b8d00020.ttf",
+    "static/media/hrManagement.png": "/portfolio/static/media/hrManagement.f4f5dbbe6502124f5227.png",
+    "static/media/Slide03NettoOTLight.ttf": "/portfolio/static/media/Slide03NettoOTLight.4b905a5c845c30fec109.ttf",
     "static/media/banner.jpg": "/portfolio/static/media/banner.11ae9f9566604c3df523.jpg",
     "index.html": "/portfolio/index.html",
-    "main.657f1b3c.css.map": "/portfolio/static/css/main.657f1b3c.css.map",
-    "main.5f02dc9a.js.map": "/portfolio/static/js/main.5f02dc9a.js.map",
+    "main.98835af2.css.map": "/portfolio/static/css/main.98835af2.css.map",
+    "main.7f045a8e.js.map": "/portfolio/static/js/main.7f045a8e.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.657f1b3c.css",
-    "static/js/main.5f02dc9a.js"
+    "static/css/main.98835af2.css",
+    "static/js/main.7f045a8e.js"
   ]
 }
